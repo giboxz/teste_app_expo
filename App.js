@@ -1,10 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
+import foto from './assets/gilvan.png';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Gilvan Ferreira da Silva Filho</Text>
+      <Image source={foto} style={{ width: 305, height: 305 }} />
       <StatusBar style="auto" />
     </View>
   );
